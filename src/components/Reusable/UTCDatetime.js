@@ -9,11 +9,11 @@ const UTCDatetime = () => {
       variant="h3"
       component="h3"
       sx={{
-        fontWeight: '400',
-        fontSize: { xs: '10px', sm: '12px' },
+        fontWeight: '100',
+        fontSize: { xs: '20px', sm: '20px' },
         color: 'rgba(255, 255, 255, .7)',
         lineHeight: 1,
-        paddingRight: '2px',
+        paddingRight: '2%',
         fontFamily: 'Poppins',
       }}
     >

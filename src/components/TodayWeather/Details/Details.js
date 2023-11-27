@@ -24,6 +24,10 @@ const Details = ({ data }) => {
           xs={4}
           sx={{
             height: '80px',
+            borderRadius: '8px',
+            margin: '10px',
+            boxShadow:
+                  'rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.5) 0px 4px 6px -2px',
           }}
         >
           <CityDateDetail city={data.city} date={dayMonth} />
@@ -32,7 +36,10 @@ const Details = ({ data }) => {
           item
           xs={4}
           sx={{
+            margin: '10px',
             height: '80px',
+            boxShadow:
+                  'rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.5) 0px 4px 6px -2px',
           }}
         >
           <TemperatureWeatherDetail
@@ -42,12 +49,16 @@ const Details = ({ data }) => {
         </Grid>
         <Grid
           item
-          xs={4}
+          xs={2}
           sx={{
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
             height: '80px',
+            margin: '10px',
+            borderRadius: '8px',
+            boxShadow:
+                  'rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.5) 0px 4px 6px -2px',
           }}
         >
           <WeatherIconDetail src={weatherIcon(`${data.weather[0].icon}.png`)} />

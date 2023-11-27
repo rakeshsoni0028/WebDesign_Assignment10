@@ -6,7 +6,7 @@ const WeatherIconDetail = (props) => {
     <Box
       component="img"
       sx={{
-        width: { xs: '50px', sm: '60px' },
+        width: { xs: '50px', sm: '40px' },
         height: 'auto',
         display: 'flex',
         alignItems: 'center',

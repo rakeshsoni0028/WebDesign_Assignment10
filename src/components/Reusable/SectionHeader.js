@@ -7,13 +7,13 @@ const SectionHeader = ({ title, mb }) => {
       variant="h5"
       component="h5"
       sx={{
-        fontSize: { xs: '12px', sm: '16px', md: '18px' },
+        fontSize: { xs: '12px', sm: '16px', md: '20px' },
         color: 'rgba(255,255,255,.7)',
-        fontWeight: '600',
+        fontWeight: '400',
         lineHeight: 1,
         textAlign: 'center',
         fontFamily: 'Roboto Condensed',
-        marginBottom: mb ? mb : '1rem',
+        marginBottom: '1.4rem',
       }}
     >
       {title}
